@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>upload image in node</title>
+  </head>
+  <body>
+    <h1>Uppolad images with node, express and multer</h1>
+
+    <!-- * in action we put the name of the folder where we will save the image-->
+    <div class="container">
+      <form action="/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" />
+        <button>Upload</button>
+      </form>
+    </div>
+  </body>
+</html>
